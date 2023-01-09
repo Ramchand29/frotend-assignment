@@ -1,0 +1,10 @@
+<h1 mat-dialog-title>Update Compound</h1>
+<div mat-dialog-content class="box">
+    <form>
+            <input type="file" (change)="selectFile($event)">
+    </form>
+</div>
+<div mat-dialog-actions class="buttons">
+  <button mat-raised-button color="warn" mat-dialog-close>Close</button>
+  <button mat-raised-button color="primary" [disabled]="!selectedFiles" (click)="upload()">Upload</button>
+</div>

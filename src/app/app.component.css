@@ -1,0 +1,19 @@
+.toolbar{
+    box-shadow: 2px 2px 4px 5px rgba(204, 204, 204, 0.895); 
+    /* position: fixed; */
+    background-color:black;
+}
+
+.bottombar{  
+    position: fixed;
+    bottom: 0; 
+    /* z-index: 1000; */
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* padding: 2em; */
+    height: 5%;
+    background-color:black;
+    box-shadow: 2px 2px 4px 5px rgba(204, 204, 204, 0.895); 
+    
+    
+}

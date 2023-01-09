@@ -1,0 +1,46 @@
+mat-dialog-title{
+    text-align: center;
+}
+
+.buttons{
+    align-content: space-between;
+    justify-content: space-around;
+    top: -18px;
+}
+
+.buttonss{
+    height: 57px;
+    width: 130px;
+    border-radius: 4px;
+    font-size: 16px;
+    color: white;
+}
+
+.button1{
+    background-color: rgba(255, 0, 34, 0.845);
+}
+
+.button1:hover{
+    background-color: rgba(199, 8, 34, 0.978);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.button2{
+    background-color: rgba(25, 0, 255, 0.918);
+}
+
+.button2:hover{
+    background-color: rgba(25, 11, 235, 0.984);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.icon{
+    position: relative;
+    left: 90%;
+}
+
+.icon:hover{
+    position: relative;
+    left: 90%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}

@@ -1,0 +1,13 @@
+
+
+.box{
+    width: 265px;
+    height: 358px;
+}
+body{
+    margin: 0%;
+}
+
+.buttons{
+    justify-content: space-around;
+}

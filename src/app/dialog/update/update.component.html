@@ -1,0 +1,17 @@
+<h1 mat-dialog-title>Update Compound</h1>
+<div mat-dialog-content class="box">
+    <form [formGroup]="CompoundForm">
+        <mat-form-field appearance="outline">
+            <mat-label>Compound Name</mat-label>
+            <input formControlName="compoundName" matInput placeholder="Compound Name">
+        </mat-form-field>
+        <mat-form-field appearance="outline">
+            <mat-label>Compound description</mat-label>
+            <textarea style="height: 175px;" formControlName="compoundDescription" matInput placeholder="compound Description"></textarea>
+        </mat-form-field>
+    </form>
+</div>
+<div mat-dialog-actions class="buttons">
+  <button mat-raised-button color="warn" mat-dialog-close>Close</button>
+  <button mat-raised-button color="primary" (click)="updateCompund()">Update</button>
+</div>
